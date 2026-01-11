@@ -55,6 +55,75 @@ nav ul li a{
    border-radius: 6px;
    font-weight: 600;
    cursor:pointer;
-    
+
+}
+#hero-section{
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 499px;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    padding:70px, 120px,134px,120px;
+}
+#hero-section img{
+ width: 100%; 
+ 
+}
+.hero-container{
+    max-width: 800px;
+    position:absolute;
+
+}
+/*the common styles oh hero h1*/
+.hero-container h1{
+    font-size: 48px;
+    font-weight: 700px;
+    line-height:1.2em;
+    margin-bottom: 20px;
+}
+.hero-container #color-white{
+color:#FFFFFF;
+}
+.hero-container #color-green{
+    color:#00a86b;
+}
+.hero-container p{
+    font-size: 18px;
+    font-weight: 400px;
+    color:#FFFFFF;
+    line-height:1.6em;
+    margin-bottom: 30px;
+}
+.hero-button{
+    display: flex;
+    justify-content: center;
+    gap:16px;
 }
 
+.hero-btn-1{
+    width: 251px;
+    height: 52px;
+    color: #FFFFFF;
+    background-color: #00a86b;
+    padding: 12px,16px;
+    display: flex;
+    flex-direction: row;
+    border: 0px;
+    border-radius: 4px;
+
+}
+.hero-btn-1 img{
+    height: 20px;
+    width:20px;
+
+}
+.hero-btn-2{
+   width: 198px;
+    height: 52px;
+    color: #FFFFFF; 
+    padding:12px,16px;
+    border: 0px;
+    border-radius: 4px;
+}
