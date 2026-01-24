@@ -177,9 +177,9 @@ color:#FFFFFF;
 3.P
 4.color-box
 5.img*/
-#apps-section #scattered-notes{
-height:250px;
-width: 330px;    
+#scattered-notes{
+height:255px;
+width: 320px;    
 padding:24px 24px 24px 24px;
 gap:16px;
 justify-content:center;
@@ -203,15 +203,15 @@ position: relative;
     align-items: center;
     margin:0px 0px 0px 95px ;
 }
-#scattered-notes #vector img{
+#vector img{
     justify-content: center;
     margin:13px 0px 5px 14px;
 }
 
 /* designing of individual app section (bookmark-overload) */
 #bookmark-overload{
-   height:250px;
-   width: 330px;    
+   height:255px;
+   width: 320px;    
    padding:24px 24px 24px 24px;
    justify-content:center;
    align-items: center;
@@ -234,20 +234,20 @@ position: relative;
     align-items: center;
     margin:0px 0px 17px 95px ;
 }
-#bookmark-overload #Bookmarks img{
-    justify-content: center;
+#Bookmarks img{
     margin:13px 0px 8px 12px;
 }
 /* designing of individual app section (no-idea-connections) */
-#app-section #no-idea-connections{
-     height:250px;
-   width: 330px;    
-   padding:24px 24px 24px 24px;
-   justify-content:center;
-   align-items: center;
-   border:2px solid;
-   border-radius:8px;
-   position: relative;
+#no-idea-connections{
+  height:255px;
+  width: 320px;    
+  padding:24px 24px 24px 24px;
+  gap:16px;
+  justify-content:center;
+  align-items: center;
+  border:2px solid;
+  border-radius:8px;
+  position: relative;
 }  
 #no-idea-connections h2{
     color:#001931;
@@ -265,37 +265,36 @@ position: relative;
     margin:0px 0px 17px 95px ;
 
 }
-#no-connections{
-    justify-content: center;
-    margin:13px 0px 8px 12px;
+#no-connections img {
+    margin:13px 0px 12px 12px;
 }
 /* designing of individual app section (forgetting-what-you-learned) */
 #forgetting-what-you-learned{
-  height:250px;
-  width: 330px;    
-  padding:24px 24px 24px 24px;
+  height:255px;
+  width: 320px;    
+  padding:20px 24px 24px 24px;
   gap:16px;
   justify-content:center;
   align-items: center;
   border:2px solid;
   border-radius:8px;
-  box-shadow:rgba(169, 168, 168, 0.755);   
-}#forgetting-what-you-learned h2{
+  position: relative;   
+}
+#forgetting-what-you-learned h2{
     color:#001931;
     font-weight: 700;
 }
 #forgetting-what-you-learned p{
     font-size:16px;
 }
-#forgetting-what-you-learned #forgotting{
+#forgetting{
     height:55px;
     width:55px;
     border-radius: 30px;
     background-color: #F95555;
     align-items: center;
-    margin:0px 0px 17px 70px ;
+    margin:0px 0px 15px 95px ;
 }
-#forgotting img{
-    justify-content: center;
-    margin:13px 0px 5px 12px;
+#forgetting img{
+    margin:11px 3px 12px 12px;
 }
